@@ -1,0 +1,81 @@
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+
+.container {
+    max-width: 600px;
+    border: 2px solid palevioletred;
+    margin: 100px auto;
+    padding: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:8px;
+    justify-items: ;
+}
+
+.input-field {
+    box-sizing: border-box; /* Add this line */
+    height: 44px;
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    margin-right:0;
+}
+
+.input-field:focus {
+    border: 2px solid orange;
+    outline: none;
+}
+
+.add-button {
+    box-sizing: border-box;
+    height: 44px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid teal;
+    background-color: teal;
+    color: white;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.edit-button {
+    box-sizing: border-box;
+    height: 44px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid teal;
+    color: teal;
+    border-radius: 8px;
+    margin: 0;
+    background-color: white;
+}
+
+.delete-button {
+    box-sizing: border-box;
+    height: 44px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid teal;
+    color: teal;
+    border-radius: 8px;
+    margin: 0;
+    background-color: white;
+}
+
+.finished-button {
+    box-sizing: border-box;
+    height: 44px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid teal;
+    color: teal;
+    border-radius: 8px;
+    margin: 0;
+    background-color: white;
+}
